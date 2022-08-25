@@ -13,7 +13,7 @@ fi
 cd misc-tools
 
 # ----------  forensics  ----------
-sudo apt-get install -y binwalk foremost
+sudo apt-get install -y binwalk foremost hexyl hexedit
 
 # ---------- Stego Tools ----------
 if [[ ! -d stego ]]; then
